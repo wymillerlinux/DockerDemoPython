@@ -20,6 +20,7 @@ If you get a permission denied error, add your user to the Docker group.<br>
 `sudo usermod -aG docker wyatt`<br>
 Replace `wyatt` with your user.<br>
 
+## Running
 Finally, run your image with the flags `-it`.<br>
 `docker run -it demo02`<br>
 
